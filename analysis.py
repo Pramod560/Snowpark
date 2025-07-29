@@ -21,7 +21,7 @@ def run_analysis():
     # Create named stage if not exists
     session.sql("CREATE STAGE IF NOT EXISTS LOCAL_FILE_STAGE").collect()
     # Upload the CSV file to the stage (will overwrite if exists)
-# Test comment to trigger workflow and PR creation
+    # Test: trigger workflow and PR automation
     local_csv_path = "snowflake_snowpark_brainstorming/sample_data.csv"
     if os.path.exists(local_csv_path):
         session.file.put(local_csv_path, "@LOCAL_FILE_STAGE", overwrite=True)
