@@ -2,3 +2,5 @@ pandas
 openpyxl
 snowflake-connector-python
 snowflake-snowpark-python
+databricks-sql-connector
+pyspark
