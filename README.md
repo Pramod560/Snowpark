@@ -1,4 +1,5 @@
 # Snowflake Snowpark Brainstorming
+# [uat] CI/CD test commit
 
 This project is set up for experimenting with Snowflake and Snowpark in an isolated environment. All dependencies required to connect to Snowflake will be installed. Docker will be used for isolation.
 
