@@ -37,9 +37,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: uat
-          branch: dev
+          branch: dev-pr-to-uat/${{ github.sha }}
           title: 'Promote changes from dev to uat'
           body: 'Automated PR to promote changes from dev to uat after successful workflow.'
+          delete-branch: true
 
   deploy-uat:
     if: github.ref == 'refs/heads/uat'
@@ -59,9 +60,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: main
-          branch: uat
+          branch: uat-pr-to-main/${{ github.sha }}
           title: 'Promote changes from uat to main'
           body: 'Automated PR to promote changes from uat to main after successful workflow.'
+          delete-branch: true
 
   deploy-prod:
     if: github.ref == 'refs/heads/main'
