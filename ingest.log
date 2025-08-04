@@ -1,0 +1,72 @@
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : AZCJTKJ-GK73551, user : PRAMOD560, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=3a5f5422-168f-42c3-b72e-0f11f106d797
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2025-08-03 07:41:54.115159) is eclipsed by present time (2025-08-03 07:41:54.115941)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:ZeW92mbFiCqnBLqZsGokCTAwCrcZwd6xq+eFZvLCEWE=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "POST /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=3a5f5422-168f-42c3-b72e-0f11f106d797 HTTP/1.1" 200 None
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '3a5f5422-168f-42c3-b72e-0f11f106d797', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=9a6d7abf-ae43-40a6-a154-5de17fb657c2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=9a6d7abf-ae43-40a6-a154-5de17fb657c2 HTTP/1.1" 200 None
+INFO:snowflake.ingest.simple_ingest_manager:Get history range request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/loadHistoryScan?requestId=495258de-9aff-4ba1-b20c-c6e9198a8bf5&startTimeInclusive=2025-08-03T06%3A42%3A17.096810Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/loadHistoryScan?requestId=495258de-9aff-4ba1-b20c-c6e9198a8bf5&startTimeInclusive=2025-08-03T06%3A42%3A17.096810Z HTTP/1.1" 200 None
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=33b04eaa-623b-47d5-8f12-5ef00e7e8374&beginMark=1_-1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=33b04eaa-623b-47d5-8f12-5ef00e7e8374&beginMark=1_-1 HTTP/1.1" 200 None
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : AZCJTKJ-GK73551, user : PRAMOD560, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=2d297af4-a454-4930-bdf3-88a8dad0a0dc
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2025-08-03 07:45:42.630734) is eclipsed by present time (2025-08-03 07:45:42.631423)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:ZeW92mbFiCqnBLqZsGokCTAwCrcZwd6xq+eFZvLCEWE=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "POST /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=2d297af4-a454-4930-bdf3-88a8dad0a0dc HTTP/1.1" 200 None
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '2d297af4-a454-4930-bdf3-88a8dad0a0dc', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=76c5818b-5881-4187-a431-3e8b1a47134d
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=76c5818b-5881-4187-a431-3e8b1a47134d HTTP/1.1" 200 None
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : AZCJTKJ-GK73551, user : PRAMOD560, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=59f735fc-3ea5-457d-9cf3-89c182ddc658
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2025-08-03 07:46:19.772359) is eclipsed by present time (2025-08-03 07:46:19.773141)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:ZeW92mbFiCqnBLqZsGokCTAwCrcZwd6xq+eFZvLCEWE=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "POST /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=59f735fc-3ea5-457d-9cf3-89c182ddc658 HTTP/1.1" 200 None
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '59f735fc-3ea5-457d-9cf3-89c182ddc658', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=f51e51bc-eec9-41b8-9dc0-d5475faafbba
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=f51e51bc-eec9-41b8-9dc0-d5475faafbba HTTP/1.1" 200 None
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : AZCJTKJ-GK73551, user : PRAMOD560, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=8cf77cd5-83c1-4c5d-9ac2-f5e71473cac6
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2025-08-03 07:50:40.300258) is eclipsed by present time (2025-08-03 07:50:40.301321)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:ZeW92mbFiCqnBLqZsGokCTAwCrcZwd6xq+eFZvLCEWE=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "POST /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=8cf77cd5-83c1-4c5d-9ac2-f5e71473cac6 HTTP/1.1" 200 None
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '8cf77cd5-83c1-4c5d-9ac2-f5e71473cac6', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=6c175fdd-9695-4dea-8aa8-99975cea88cf
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=6c175fdd-9695-4dea-8aa8-99975cea88cf HTTP/1.1" 200 None
+INFO:snowflake.ingest.utils.tokentools:Creating Security Manager with arguments
+            account : AZCJTKJ-GK73551, user : PRAMOD560, lifetime : 0:59:00, renewal_delay : 0:54:00
+INFO:snowflake.ingest.simple_ingest_manager:Ingest file request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=6a6b511d-38d6-417f-ac0e-0aeec6812a1a
+INFO:snowflake.ingest.utils.tokentools:Renewing token because renewal time (2025-08-03 08:52:36.927728) is eclipsed by present time (2025-08-03 08:52:36.928552)
+INFO:snowflake.ingest.utils.tokentools:Public key fingerprint is SHA256:ZeW92mbFiCqnBLqZsGokCTAwCrcZwd6xq+eFZvLCEWE=
+INFO:snowflake.ingest.utils.tokentools:New Token created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "POST /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertFiles?requestId=6a6b511d-38d6-417f-ac0e-0aeec6812a1a HTTP/1.1" 200 None
+DEBUG:snowflake.ingest.simple_ingest_manager:Ingest response: {'requestId': '6a6b511d-38d6-417f-ac0e-0aeec6812a1a', 'responseCode': 'SUCCESS'}
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=580031c4-ae3d-4361-850f-d521b417116c
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=580031c4-ae3d-4361-850f-d521b417116c HTTP/1.1" 200 None
+INFO:snowflake.ingest.simple_ingest_manager:Get history range request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/loadHistoryScan?requestId=a9b61091-6dea-4831-92f6-5c119a71bfad&startTimeInclusive=2025-08-03T07%3A53%3A00.666425Z
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/loadHistoryScan?requestId=a9b61091-6dea-4831-92f6-5c119a71bfad&startTimeInclusive=2025-08-03T07%3A53%3A00.666425Z HTTP/1.1" 200 None
+INFO:snowflake.ingest.simple_ingest_manager:Get history request url: https://azcjtkj-gk73551.snowflakecomputing.com/v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=5a3f5198-9cec-475f-9c46-6fb8a26ebe73&beginMark=2_-1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): azcjtkj-gk73551.snowflakecomputing.com:443
+DEBUG:urllib3.connectionpool:https://azcjtkj-gk73551.snowflakecomputing.com:443 "GET /v1/data/pipes/LOGS.PUBLIC.RESTPIPE/insertReport?requestId=5a3f5198-9cec-475f-9c46-6fb8a26ebe73&beginMark=2_-1 HTTP/1.1" 200 None
